@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  background-color: rgb(164, 164, 240);
+  
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.darken{
+  filter: brightness(-10%);
+}
+
+.div {
+  display: flex;
+  width: 56.25px;
+  height: 56.25px;
+
+  border: 1px solid black;
+}
+
+.quantity {
+  width: 200px;
+  height: 70px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
